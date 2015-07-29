@@ -13,7 +13,7 @@ Write a function to find the longest common prefix string amongst an array of st
 ***
 pythonic实现:
 
-`class Solution:
+class Solution:
     # @param {string[]} strs
     # @return {string}
     def longestCommonPrefix(self, strs):
@@ -23,4 +23,4 @@ pythonic实现:
                 ret += t[0]
             else:
                 break
-        return ret`
+        return ret
