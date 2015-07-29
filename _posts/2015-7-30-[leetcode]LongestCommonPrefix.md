@@ -3,6 +3,7 @@ layout: post
 title: [leetcode]longest_common_prefix
 category: leetcode
 ---
+
 需求描述:
 
 Write a function to find the longest common prefix string amongst an array of strings. 
