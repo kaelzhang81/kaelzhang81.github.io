@@ -43,11 +43,7 @@ category: ubuntu shortcut
     33. Win + Mousewheel: 桌面上的缩放操作，使用滚轮鼠标操作更方便
     34. F9: 显示和关闭 Nautilus 边栏
 
-终端（terminal）
-
-| column | column |
-|--------|--------|
-|Tab        |自动补全        |
+终端（terminal）      |
 
 	Tab	自动补全
     Ctrl+a	光标移动到开始位置
