@@ -6,7 +6,7 @@ category: ubuntu shortcut
 
 ![Vim cmd](/images/ubuntu_shortcut.png "ubuntu shortcut")
 
-本篇博文记录ubuntu系统常用快捷键，包括系统快捷键和自带程序快捷键
+本篇博文记录ubuntu系统常用快捷键，包括系统快捷键和常用程序快捷键
 
 通用（General）
 
