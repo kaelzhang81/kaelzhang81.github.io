@@ -3,7 +3,9 @@ layout: post
 title: ubuntu shortcut
 category: ubuntu shortcut 
 ---
+
 通用（General）
+
     1. Ctrl + W: 关闭当前 Nautilus 窗口
     2. Ctrl+T: 在 Nautilus 打开新的 Tab
     3. Ctrl + H: 切换隐藏文件（夹）显示或者不显示
@@ -40,6 +42,7 @@ category: ubuntu shortcut
     34. F9: 显示和关闭 Nautilus 边栏
 
 终端（terminal）
+
 | column | column |
 |--------|--------|
 |Tab        |自动补全        |
