@@ -4,6 +4,8 @@ title: ubuntu shortcut
 category: ubuntu shortcut 
 ---
 
+![Vim cmd](/images/ubuntu_shortcut.png "ubuntu shortcut")
+
 通用（General）
 
     1. Ctrl + W: 关闭当前 Nautilus 窗口
