@@ -16,6 +16,9 @@ pygments: true
 
 paginate: 5
 paginate_path: "page:num"
+
+archive_path: /archive.html
+categories_path : /categories.html
 tags_path : /tags.html
 #
 # Flags below are optional
