@@ -4,8 +4,6 @@ title: 系统设计系列 scalability入门
 category: architecture
 ---
 
-#系统设计系列 scalability入门
-
 ![scalability](/images/可伸缩性.png "scalability")
 
 Just recently I was asked what it would take to make a web service massively scalable. My answer was lengthy and maybe it is also for other people interesting. So I share it with you here in my blog and split it into parts to make it easier to read. New parts are released on a regular basis. Have fun and your comments are always welcomed!
