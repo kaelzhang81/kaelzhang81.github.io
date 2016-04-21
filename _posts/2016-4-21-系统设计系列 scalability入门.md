@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [译]系统设计系列 scalability入门
+title: 系统设计系列 scalability入门
 category: architecture
 ---
 
