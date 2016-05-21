@@ -12,7 +12,7 @@ description: kaelzhang's blog
 avatar: https://avatars2.githubusercontent.com/u/8979790?v=3&s=460
 
 # 代码高亮
-pygments: true
+rouge: true
 
 paginate: 5
 paginate_path: "page:num"
@@ -64,7 +64,7 @@ baseurl: ""
 #
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
