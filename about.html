@@ -1,0 +1,137 @@
+---
+layout: page
+title: "About"
+description: "Hey, this is Haojun."
+header-img: "img/about-bg.jpg"
+---
+
+<!-- Language Selector -->
+<select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+	<option value="0" selected> 英语 English </option>
+	<option value="1"> 中文 Chinese </option>
+</select>
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+	<blockquote>
+		别人都叫我 大腿君。
+	</blockquote>
+
+	<p>
+		大家好，我是 <strong>隋昊君</strong>，昵称<strong>Charles</strong>。现就读于 Penn State University 的 Schreyer Honor College，主修计算机科学，数学系统分析，以及应用统计学。
+	</p>
+
+	<p>
+		我现在 The Penn State Institute for CyberScience 工作，主要负责管理并维护学校的 Apache Hadoop 以及 Apache Spark 服务器，以及帮助教授解决日常使用公司产品所发生的技术上的问题。
+	</p>
+
+	<h5>个人简历</h5>
+	<ul>
+		<li>
+			<a href="/attach/2016_Haojun_en.pdf">2016_Haojun_en</a>
+		</li>
+	</ul>
+
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+	<blockquote>
+		People call me BigLeg.
+	</blockquote>
+
+	<p>
+		Hi, here is <strong>Haojun Sui</strong>, you can call me <strong>Charles</strong>. I am currently pursuing Bachelor Degrees of Computer Science, Mathematics (System Analysis), and Statistics (Applied) in Schreyer Honor College, Pennsylvania State University.
+	</p>
+
+	<p>
+		I am currently working in The Penn State Institute for CyberScience and my focus was on maintaining and managing campus-wide Apache Hadoop and Spark server, and helping university professors resolve technical issues while using our products.
+	</p>
+
+	<h5>Resume</h5>
+	<ul>
+		<li>
+			<a href="/attach/2016_Haojun_en.pdf">2016_Haojun_en</a>
+		</li>
+	</ul>
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+	var $zh = document.querySelector(".zh");
+	var $en = document.querySelector(".en");
+	function onLanChange(index){
+		if(index == 1){
+			$zh.style.display = "block";
+			$en.style.display = "none";
+		}else{
+			$en.style.display = "block";
+			$zh.style.display = "none";
+		}
+	}
+	onLanChange(0);
+</script>
+
+
+
+{% if site.duoshuo_username %}
+<!-- 多说评论框 start -->
+<div class="comment">
+	<div class="ds-thread"
+	{% if site.duoshuo_username == "huxblog" %}
+		data-thread-id="1187623191091085319"
+	{% else %}
+		data-thread-key="{{site.duoshuo_username}}/about"
+	{% endif %}
+
+	data-title="{{page.title}}"
+	data-url="{{site.url}}/about/"></div>
+</div>
+<!-- 多说评论框 end -->
+
+<!-- Duoshuo hacking -->
+<input id="dsUser" type="hidden" value="{{site.duoshuo_username}}"  />
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+	// dynamic User hacking by Hux
+	var _user = document.getElementById('dsUser').value;
+	// duoshuo comment query.
+	var duoshuoQuery = {short_name: _user };
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0]
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+</script>
+<!-- 多说公共JS代码 end -->
+{% endif %}
+
+
+{% if site.disqus_username %}
+<!-- disqus 评论框 start -->
+<div class="comment">
+	<div id="disqus_thread" class="disqus-thread">
+
+	</div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+	/* * * CONFIGURATION VARIABLES * * */
+	var disqus_shortname = "{{site.disqus_username}}";
+	var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+	var disqus_url = "{{site.url}}{{page.url}}";
+
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
