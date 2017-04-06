@@ -2,7 +2,7 @@
 layout:     post
 title:      "longest_common_prefix"
 subtitle:   "longest_common_prefix"
-date:       2015-12-25 22:00:00
+date:       2015-07-30 22:00:00
 author:     "Kaelzhang"
 header-img: "img/hearder/docker_concepts.png"
 catalog:    true

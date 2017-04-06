@@ -2,7 +2,7 @@
 layout:     post
 title:      "在mac上运行docker"
 subtitle:   "run docker on mac osx"
-date:       2015-03-08 22:00:00
+date:       2016-03-08 22:00:00
 author:     "Kaelzhang"
 header-img: "img/header/mac docker.png"
 catalog:    true
