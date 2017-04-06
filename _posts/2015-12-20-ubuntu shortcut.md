@@ -9,7 +9,7 @@ catalog:    true
 tags:
     - development efficiency
     - ubuntu
--
+---
 
 本篇博文记录ubuntu系统常用快捷键，包括系统快捷键和常用程序快捷键
 
