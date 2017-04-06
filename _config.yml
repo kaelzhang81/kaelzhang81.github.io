@@ -1,23 +1,23 @@
 # Site settings
-title: Haojun Sui
-SEOTitle: Haojun's Blog
+title: Kael Zhang
+SEOTitle: Kaelzhang's Blog
 header-img: img/home-bg.jpg
-email: shjnyr@me.com
+email: kael.sir@gmail.com
 description: ""
 keyword: ""
-url: "http://haojunsui.github.io"              # your host, for absolute URL
+url: "http://kaelzhang81.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     2426835440
+weibo_username:     prince_kael
 #zhihu_username:     sui-hao-jun
-github_username:    haojunsui
-twitter_username:  Charles_sui
+github_username:    kaelzhang81
+twitter_username:  kaelzhang
 #facebook_username:  huxpro
-linkedin_username: suihaojun
+linkedin_username: kaelzhang
 
 
 
@@ -48,10 +48,10 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: haojunsui
+disqus_username: kaelzhang
 
 # Duoshuo settings
-duoshuo_username: haojunsui
+duoshuo_username: kaelzhang
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -63,7 +63,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-81403004-1'            # Format: UA-xxxxxx-xx
-ga_domain: haojunsui.github.io
+ga_domain: kaelzhang81.github.io
 
 
 
@@ -83,22 +83,10 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Penn State University",
-        href: "http://www.psu.edu"
-    },{
-        title: "The Penn State Institute for CyberScience",
-        href: "http://ics.psu.edu"
-    },{
         title: "Microsoft",
         href: "https://www.microsoft.com/en-us/"
     },{
         title: "SSTL",
         href: "http://www.sstl.org.cn"
-    },{
-        title: "DuckDuckHack",
-        href: "https://github.com/orgs/duckduckgo/teams/duckduckhack-contributors"
-    },{
-        title: "Stateware",
-        href: "http://www.stateware.org"
     }
 ]
