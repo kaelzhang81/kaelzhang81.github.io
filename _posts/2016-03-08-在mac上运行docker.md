@@ -11,7 +11,7 @@ tags:
     - mac
 ---
 
-![img](img/header/mac docker.png)
+![img](/img/header/mac docker.png)
 
 >Build, Ship and Run Any App, Anywhere！
 

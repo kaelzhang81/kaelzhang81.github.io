@@ -4,7 +4,7 @@ title:      "使用SonarQube进行代码质量提升"
 subtitle:   "use sonarqube"
 date:       2015-09-13 22:00:00
 author:     "Kaelzhang"
-header-img: "img/code-bg.jpg"
+header-img: "img/post-code-bg.jpg"
 catalog:    true
 tags:
     - development efficiency

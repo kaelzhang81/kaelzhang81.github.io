@@ -4,7 +4,7 @@ title:      "longest_common_prefix"
 subtitle:   "longest_common_prefix"
 date:       2015-07-30 22:00:00
 author:     "Kaelzhang"
-header-img: "img/code-bg.jpg"
+header-img: "img/post-code-bg.jpg"
 catalog:    true
 tags:
     - leetcode

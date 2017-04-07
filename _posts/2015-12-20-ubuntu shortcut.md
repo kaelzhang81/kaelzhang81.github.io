@@ -11,7 +11,7 @@ tags:
     - ubuntu
 ---
 
-![img](img/header/ubuntu_shortcut.png)
+![img](/img/header/ubuntu_shortcut.png)
 
 本篇博文记录ubuntu系统常用快捷键，包括系统快捷键和常用程序快捷键
 
