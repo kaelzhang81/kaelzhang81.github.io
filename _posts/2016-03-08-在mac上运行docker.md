@@ -4,12 +4,14 @@ title:      "在mac上运行docker"
 subtitle:   "run docker on mac osx"
 date:       2016-03-08 22:00:00
 author:     "Kaelzhang"
-header-img: "img/header/mac docker.png"
+header-img: "img/post-bg-unix-linux.jpg"
 catalog:    true
 tags:
     - docker
     - mac
 ---
+
+![img](img/header/mac docker.png)
 
 >Build, Ship and Run Any App, Anywhere！
 
@@ -35,10 +37,6 @@ The installer launches the “Install Docker Toolbox” dialog.
 >EXTRA_ARGS="--insecure-registry 10.86.56.126:5000"
 
 xxxxxx为ip或registry名字docker-registry.com.intra，如果是registry名记得在hosts内加上名字映射。
-
-
-
-
 
 ##### 参考资料：
 

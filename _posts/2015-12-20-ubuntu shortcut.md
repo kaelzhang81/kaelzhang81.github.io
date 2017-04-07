@@ -4,16 +4,18 @@ title:      "ubuntu快捷键小结"
 subtitle:   "ubuntu shortcut"
 date:       2015-12-20 22:00:00
 author:     "Kaelzhang"
-header-img: "img/header/ubuntu_shortcut.png"
+header-img: "img/post-bg-unix-linux.jpg"
 catalog:    true
 tags:
     - development efficiency
     - ubuntu
 ---
 
+![img](img/header/ubuntu_shortcut.png)
+
 本篇博文记录ubuntu系统常用快捷键，包括系统快捷键和常用程序快捷键
 
-通用（General）
+## 通用（General）
 
     Ctrl + W:	关闭当前 Nautilus 窗口
     Ctrl + T:	在 Nautilus 打开新的 Tab
@@ -50,7 +52,7 @@ tags:
     Win + Mousewheel:	桌面上的缩放操作，使用滚轮鼠标操作更方便
     F9:	显示和关闭 Nautilus 边栏
 
-终端（terminal）      |
+## 终端（terminal）      |
 
 	Tab	自动补全
     Ctrl + A	光标移动到开始位置
