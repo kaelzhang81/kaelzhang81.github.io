@@ -386,7 +386,7 @@ void FakeSystem::wait(const EventId& eventId, const AbstractAsserter& asserter)
 
         INFO_LOG( "FakeSystem::wait  event[%d-%s] to msg queue!!\n", eventId, EventName::to_s(eventId));
         auto msg = RECV_MSG_QUEUE.pop(eventId, *this);
-        
+
         instKey = msg.instKey();
         session = msg.session();
 
@@ -398,6 +398,7 @@ void FakeSystem::wait(const EventId& eventId, const AbstractAsserter& asserter)
     }
 }
 ```
+
 可以尝试通过lambda表达式来消除重复的逻辑：
 
 ```
