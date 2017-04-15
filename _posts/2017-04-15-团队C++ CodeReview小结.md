@@ -11,6 +11,8 @@ tags:
     - c++
 ---
 
+![code review](/img/in-post/team cpp code review/code review.png)
+
 # 团队C++代码走查小结
 本文内容源于团队的每日代码走查活动，对照Clean Code基本原则和项目C++编码规范将项目代码中实际出现的一些问题进行提炼归纳，以便经验传播、避免问题反复出现。
 PS：由于信息安全已对示例代码进行去业务处理。
