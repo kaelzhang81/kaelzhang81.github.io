@@ -4,7 +4,7 @@ title:      "团队C++代码走查小结"
 subtitle:   "the summary of C++ code review"
 date:       2017-04-15 23:00:00
 author:     "Kaelzhang"
-header-img: "img/post-code-bg.jpg"
+header-img: "img/code-bg.jpg"
 catalog:    true
 tags:
     - code review
@@ -336,7 +336,7 @@ req->config()->xxx()->setVal(ROLE(XXXRole).getValue().xxx());
 #### 冗余的头文件
 
 ```
-~~#include "haed1andhaed2.h"~~
+// #include "haed1andhaed2.h"
 #include "haed1.h"
 
 Haed1 haed;
@@ -346,7 +346,7 @@ Haed1 haed;
 #### 范围过大的头文件
 
 ```
-~~#include "all.h"~~
+// #include "all.h"
 #include "part.h"
 
 Part part;
@@ -586,6 +586,8 @@ const Message pop(const EventId& eventId, const FakeSystem& sys)
         onFail(string(), string(), eventId);
     }
 ```
+
+
 
 
 
