@@ -6,7 +6,7 @@ email: kael.sir@gmail.com
 description: ""
 keyword: ""
 url: "http://kaelzhang81.github.io"              # your host, for absolute URL
-baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
