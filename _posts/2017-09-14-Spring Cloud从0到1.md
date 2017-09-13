@@ -48,13 +48,17 @@ NOTE:
 在Spring Cloud中，整合了很多功能组件，包括Config、Messaging、Netflix OSS以及对Heroku、Amazon Web Service、Cloud Foundry等云平台的接口支持。
 
 
-### ![](/img/in-post/spring-cloud/netflix.png)
+### netflix OSS
+
+![](/img/in-post/spring-cloud/netflix.png)
 
 Spring Cloud的子项目之一，主要内容是对Netflix公司一系列开源产品的包装，它为Spring Boot应用提供了自配置的Netflix OSS整合。通过一些简单的注解，开发者就可以快速的在应用中配置一下常用模块并构建庞大的分布式系统。
 它主要提供的模块包括：服务发现（Eureka），断路器（Hystrix），智能路由（Zuul），客户端负载均衡（Ribbon）等。
 
 
-#### ![](/img/in-post/spring-cloud/netflix-eureka.jpg)
+#### Eureka
+
+![](/img/in-post/spring-cloud/netflix-eureka.jpg)
 
 云端服务发现，一个基于 REST 的服务，用于定位服务，以实现云端中间层服务发现和故障转移。
 
@@ -62,11 +66,13 @@ Note:
 
 Service discovery client & server Maintains registry of clients with metadata    Host/port    Health indicator URLClient heartbeats (30 sec default - changing not encouraged)    Lease renewed with serverService available when client & server(s) metadata cache all in sync    Can take up to 3 heart beats
 
-Eureka特点
+##### Eureka特点
 > REST based service registry> Supports replication> Caches on the client> Resilient> Fast> ...but not consistent> Foundation for other services
 
 
-#### ![](/img/in-post/spring-cloud/netflix-zuul.png)
+#### Zuul
+
+![](/img/in-post/spring-cloud/netflix-zuul.png)
 
 Zuul 是在云平台上提供动态路由,监控,弹性,安全等边缘服务的框架。Zuul 相当于是设备和 Netflix 流应用的 Web 网站后端所有请求的前门。
 
@@ -79,7 +85,10 @@ JVM based router & load balancerProvides single point of entry to services
 By default creates route for every service in Eureka    Refer to http://localhost/credit-service routes to http://credit- serviceFilters provide limited entry points to system
 
 
-#### ![](/img/in-post/spring-cloud/netflix-ribbon.png)
+#### Ribbon
+
+![](/img/in-post/spring-cloud/netflix-ribbon.png)
+
 提供云端负载均衡，有多种负载均衡策略可供选择，可配合服务发现和断路器使用。
 
 Note:
@@ -87,16 +96,23 @@ Note:
 Client side loan balancerCan delegate to Eureka for server listsOr list servers    stores.ribbon.listOfServers=... + ribbon.eureka.enabled=false
 
 
-#### ![](/img/in-post/spring-cloud/netflix-turbine.png)
+#### Turbine
+
+![](/img/in-post/spring-cloud/netflix-turbine.png)
+
 Turbine是聚合服务器发送事件流数据的一个工具，用来监控集群下hystrix的metrics情况
 
 
-#### ![](/img/in-post/spring-cloud/netflix-feign.png)
+#### Feign
+
+![](/img/in-post/spring-cloud/netflix-feign.png)
 
 声明式服务调用客户端。它使得编写Web服务客户端变得更加简单。只需要通过创建接口并用注解来配置它既可完成对Web服务接口的绑定。具备可插拔的注解支持，包括Feign注解、JAX-RS注解，也支持可插拔的编码器和解码器。Spring Cloud Feign还扩展了对Spring MVC注解的支持，同时还整合了Ribbon和Eureka来提供均衡负载的HTTP客户端实现。
 
 
-#### ![](/img/in-post/spring-cloud/netflix-hystrix.png)
+#### Hystrix
+
+![](/img/in-post/spring-cloud/netflix-hystrix.png)
 
 hystrix旨在通过控制那些访问远程系统、服务和第三方库的节点，从而对延迟和故障提供更强大的容错能力。Hystrix具备拥有回退机制和断路器功能的线程和信号隔离，请求缓存和请求打包，以及监控和配置等功能。
 
@@ -107,7 +123,9 @@ Circuit breakerThreshold breached (20 failures in 5 seconds) => breaker kicks i
 > Enable resilient applications> Do call in other thread pool> Won’t block request handler> Can implement timeout
 
 
-### ![](/img/in-post/spring-cloud/spring-cloud-config.png)
+### spring-cloud-config
+
+![](/img/in-post/spring-cloud/spring-cloud-config.png)
 
 配置管理工具包，让你可以把配置放到远程服务器，集中化管理集群配置，目前支持本地存储、Git以及Subversion。
 
@@ -120,12 +138,16 @@ CONFIG SERVER
 Git hosted configuration repositorySVN & filesystem also supported (see implementations of org.springframework.cloud.config.server.EnvironmentR epository)Multiple security options w/Spring Security (HTTP Basic -> OAuth bearer tokens)Push updates via Spring Cloud Bus
 
 
-### ![](/img/in-post/spring-cloud/spring-cloud-bus.png)
+### spring-cloud-bus
+
+![](/img/in-post/spring-cloud/spring-cloud-bus.png)
 
 事件、消息总线，用于在集群（例如，配置变化事件）中传播状态变化，可与Spring Cloud Config联合实现热部署。
 
 
-### ![](/img/in-post/spring-cloud/spring-cloud-sleuth.png)
+### spring-cloud-sleuth
+
+![](/img/in-post/spring-cloud/spring-cloud-sleuth.png)
 
 日志收集工具包，封装了Dapper和log-based追踪以及Zipkin和HTrace操作，为SpringCloud应用实现了一种分布式追踪解决方案。
 
