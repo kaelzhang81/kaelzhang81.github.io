@@ -14,7 +14,7 @@
 
 ## 领域驱动测试
 ### 前奏
-robotframework引入
+robotframework引入、面向对象
 ### 难解的固有思维
 五元组DSL
 ### 领域驱动设计
