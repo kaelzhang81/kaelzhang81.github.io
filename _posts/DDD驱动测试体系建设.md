@@ -32,7 +32,7 @@ robotframework引入、面向对象
 ### 组合式设计
 #### 上帝类的养成
 特性的不断叠加
-DCI的应用
+#### DCI的应用
 ### DDD in python
 展示DDD战术元素、python分层框架
 ### 感悟
@@ -50,6 +50,9 @@ LTE产品使用情况、取得效果、公司推广
 战略设计、子域划分
 ### 资源分享
 开源库推荐、DDD_sample
+
+https://github.com/valentjedi/ddd-dynamic
+https://github.com/kaelzhang81/DDD-Sample
 
 
 
