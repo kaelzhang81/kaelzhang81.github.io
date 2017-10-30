@@ -36,6 +36,8 @@ robotframework引入、面向对象
 ### 测试分层架构
 分层架构
 
+https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/media/image8.png
+
 #### 依赖倒置
 分层架构的演进
 
