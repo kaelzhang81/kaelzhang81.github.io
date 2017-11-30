@@ -26,6 +26,7 @@ http://sauceio.com/wp-content/uploads/2016/08/blog-post-600x451.png
 按特性分类，将用例分派给不同的人并行开发
 
 平台影响用例实现效率
+http://img2.3png.com/8355daf1bbbcde27f69a97052eb5605fa0f2.png
 
 并行开发代码复用度差
 人员编程能力参差不起，主力还是测试人员，用例代码较难理解，用例按照文件组织容易产生大文件
