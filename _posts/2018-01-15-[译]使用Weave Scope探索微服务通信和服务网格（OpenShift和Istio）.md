@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      [译]使用Weave Scope探索微服务通信和服务网格（OpenShift和Istio）
+title:   【译】使用Weave Scope探索微服务通信和服务网格（OpenShift和Istio）
 subtitle:   Using Weave Scope to explore Microservices Communication and Service Mesh (OpenShift and Istio)
 date:       2018-01-15 21:05:00
 author:     "Kaelzhang"
@@ -11,7 +11,7 @@ tags:
     - service mesh
 ---
 
-# [译]使用Weave Scope探索微服务通信和服务网格（OpenShift和Istio）
+# 【译】使用Weave Scope探索微服务通信和服务网格（OpenShift和Istio）
 
 原文地址：[https://holisticsecurity.io/2018/01/12/using-weave-scope-to-explore-microservices-communication-and-service-mesh-openshift-and-istio/?utm_source=tuicool&utm_medium=referral](https://holisticsecurity.io/2018/01/12/using-weave-scope-to-explore-microservices-communication-and-service-mesh-openshift-and-istio/?utm_source=tuicool&utm_medium=referral)
 
