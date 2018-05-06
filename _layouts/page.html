@@ -48,6 +48,25 @@ layout: default
         			</div>
                 </section>
                 {% endif %}
+				
+				{% if site.featured-tags %}				
+					<div id="container"></div>
+					<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+					<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+					<script>
+						var gitment = new Gitment({
+							// id: '页面 ID', // 可选。默认为 location.href
+							owner: 'kaelzhang81',
+							repo: 'https://github.com/kaelzhang81/comment.git',
+							oauth: {
+								client_id: '2ba53f9801e991baa87f',
+								client_secret: 'b39ef154930019954033066260538505f11be387',
+							},
+						})
+						gitment.render('container')
+					</script>
+						
+				{% endif %}
 
                 <!-- Friends Blog -->
                 {% if site.friends %}
