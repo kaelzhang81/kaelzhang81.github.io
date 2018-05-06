@@ -96,6 +96,8 @@ layout: default
                         {% endfor %}
                     </div>
                 </section>
+				
+				<div id="comment-container"></div>
                 {% endif %}
 
                 <!-- Short About -->
@@ -198,21 +200,19 @@ layout: default
 	</div>
 </div>
 
-				{% if site.featured-tags %}				
-					<div id="commentcontainer"></div>
-					<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-					<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-					<script>
-						var gitment = new Gitment({
-							// id: '页面 ID', // 可选。默认为 location.href
-							owner: 'kaelzhang81',
-							repo: 'https://github.com/kaelzhang81/comment.git',
-							oauth: {
-								client_id: '2ba53f9801e991baa87f',
-								client_secret: 'b39ef154930019954033066260538505f11be387',
-							},
-						})
-						gitment.render('container')
-					</script>
-						
-				{% endif %}
+
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  // id: '页面 ID', // 可选。默认为 location.href
+  owner: 'kaelzhang81',
+  repo: 'https://github.com/kaelzhang81/comment.git',
+  oauth: {
+    client_id: '2ba53f9801e991baa87f',
+    client_secret: 'b39ef154930019954033066260538505f11be387',
+  },
+})
+gitment.render('comment-container')
+</script>
+
