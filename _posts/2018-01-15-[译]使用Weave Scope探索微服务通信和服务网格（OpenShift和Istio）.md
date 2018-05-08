@@ -13,6 +13,7 @@ tags:
 
 # 【译】使用Weave Scope探索微服务通信和服务网格（OpenShift和Istio）
 
+本文是我给service mesh社区翻译的一篇文章。
 原文地址：[https://holisticsecurity.io/2018/01/12/using-weave-scope-to-explore-microservices-communication-and-service-mesh-openshift-and-istio/?utm_source=tuicool&utm_medium=referral](https://holisticsecurity.io/2018/01/12/using-weave-scope-to-explore-microservices-communication-and-service-mesh-openshift-and-istio/?utm_source=tuicool&utm_medium=referral)
 
 如果你正从事ESB（企业服务总线）、消息代理、BPMS（业务流程管理套件）、SOA（面向服务架构）或微服务的工作，你会注意到你正在使用不同的方式解决应用同样的一些问题，因为这些应用都是不同类型的分布式应用。这些问题包括：
