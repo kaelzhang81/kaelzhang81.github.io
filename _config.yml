@@ -70,7 +70,7 @@ ga_domain: kaelzhang81.github.io
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "好学近乎知，力行近乎仁，知耻近乎勇。知斯三者，则知所以修身；知所以修身，则知所以治人；知所以治人，则知所以治天下国家矣。"
+sidebar-about-description: "如果说优雅也有缺点的话，那就是你需要艰巨的工作才能得到它，需要良好的训练才能欣赏它。"
 sidebar-avatar: /img/avatar-kael.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
