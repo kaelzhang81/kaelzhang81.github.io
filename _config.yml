@@ -56,7 +56,7 @@ duoshuo_username: kaelzhang
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 github_comment : kaelzhang81
-
+valine_comment : true
 
 
 # Analytics settings
