@@ -84,10 +84,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Microsoft",
-        href: "https://www.microsoft.com/en-us/"
-    },{
-        title: "SSTL",
-        href: "http://www.sstl.org.cn"
+        title: "Service Mesher",
+        href: "https://github.com/servicemesher"
     }
 ]
