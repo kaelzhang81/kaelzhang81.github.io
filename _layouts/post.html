@@ -12,7 +12,6 @@ layout: default
         position: relative;
         background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
     }
-
     {% if page.header-mask %}
     header.intro-header .header-mask{
         width: 100%;
@@ -62,6 +61,14 @@ layout: default
 
                 <hr>
 
+                    <ul class="post-copyright">
+                        <li class="post-copyright-license">
+                            <strong>版权声明： </strong>
+                            本博客所有文章除特别声明外，均采用
+                            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow"
+                                target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+                        </li>
+                    </ul>              
 
                 <ul class="pager">
                     {% if page.previous.url %}
@@ -163,7 +170,6 @@ layout: default
     var disqus_shortname = "{{site.disqus_username}}";
     var disqus_identifier = "{{page.id}}";
     var disqus_url = "{{site.url}}{{page.url}}";
-
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
