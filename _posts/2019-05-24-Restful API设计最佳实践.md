@@ -21,16 +21,16 @@ tags:
 
 4个等级分别是：
 
-![](/img/in-post/REST/API设计最佳实践/level0.png)
+![](/img/in-post/REST/level0.png)
 第一级（Level 0）的 Web 服务仅使用 HTTP 作为传输方式，实际上只是远程方法调用（RPC）的一种具体形式。SOAP 和 XML-RPC 都属于此类。
 
-![](/img/in-post/REST/API设计最佳实践/level1.png)
+![](/img/in-post/REST/level1.png)
 第二级（Level 1）的 Web 服务引入了**资源**的概念。每个资源有对应的标识符和表达。
 
-![](/img/in-post/REST/API设计最佳实践/level2.png)
+![](/img/in-post/REST/level2.png)
 第三级（Level 2）的 Web 服务使用不同的 **HTTP 方法**来进行不同的操作，并且使用**HTTP 状态码**来表示不同的结果。如 HTTP GET 方法来获取资源，HTTP DELETE 方法来删除资源。
 
-![](/img/in-post/REST/API设计最佳实践/level3.png)
+![](/img/in-post/REST/level3.png)
 第四级（Level 3）的 Web 服务使用 **HATEOAS**。在资源的表达中包含了链接信息。客户端可以根据链接来发现可以执行的动作。
 
 ### 实践1：一类资源两个URL
