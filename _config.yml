@@ -82,7 +82,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 # qrcode settings
 qrcode: true                          
-qrcode-intro: "欢迎关注kaelzhang的微信公众号"
+qrcode-intro: "欢迎关注Tech For Fun的微信公众号"
 qrcode-image: /img/qrcode.jpg      
 
 
