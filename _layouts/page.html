@@ -81,6 +81,19 @@ layout: default
                 col-xs-12
                 sidebar-container
             ">
+
+            <section class="visible-md visible-lg">
+                <hr><h5>WeChat Official Account</h5>
+                <div class="short-about">
+                    {% if site.qrcode-image %}
+                        <img src="{{site.qrcode-image}}" />
+                    {% endif %}
+                    {% if site.qrcode-intro %}
+                        <p>{{site.qrcode-intro}}</p>
+                    {% endif %}
+                </div>
+            </section>
+
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>

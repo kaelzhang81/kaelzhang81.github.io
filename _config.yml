@@ -80,6 +80,11 @@ featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
+# Sidebar settings
+qrcode: true                           # whether or not using Sidebar.
+qrcode-intro: "欢迎关注kaelzhang的微信公众号"
+qrcode-image: /img/qr.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
 
 # Friends
 friends: [
