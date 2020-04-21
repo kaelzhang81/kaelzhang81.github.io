@@ -197,7 +197,7 @@ gitment.render('comment-container')
 {% endif %} -->
 
 {% if site.valine_comment %}
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<!-- <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <script>
     var valine = new Valine();
@@ -209,6 +209,26 @@ gitment.render('comment-container')
         path: '/post/jekyll-%E6%B7%BB%E5%8A%A0-Valine-%E8%AF%84%E8%AE%BA.html',
         placeholder:'在这里写评论'
     })
+</script> -->
+<div id="vssue"></div>
+<script src="https://unpkg.com/vue/dist/vue.runtime.min.js"></script>
+<script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
+<!-- <script src="https://unpkg.com/vssue/dist/vssue.github-v4.min.js"></script> -->
+<script>
+  new Vue({
+    el: '#vssue',
+    render: h => h('Vssue', {
+      props: {
+        title: 'Comment',
+        options: {
+          owner: 'kaelzhang81',
+          repo: 'vssue-kaelzhang81.github.io',
+          clientId: 'ac291fcfc526ab25ad9f',
+          clientSecret: 'b6e672c31de76df4c109c4e5308a5ce47d491657',
+        },
+      }
+    })
+  })
 </script>
 {% endif %}
 
