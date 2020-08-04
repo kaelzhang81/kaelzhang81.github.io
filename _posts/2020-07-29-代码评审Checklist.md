@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "代码评审Checklist"
-subtitle:   "Google代码健康"
+subtitle:   "Code Review Checklist"
 date:       2020-07-29 17:00:00
 author:     "Kaelzhang"
 header-img: "img/post-bg-js-module.jpg"
